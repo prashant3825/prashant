@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(mia23.jpg);
+    background-size:contain;
+    background-position:center;
+    font-family: sans-serif;
+   
+
+}
+.icon{
+   width: 300px;
+    float: left;
+   margin-top: 8px;
+    margin-left: 20px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+     
+
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 100px;
+    background: transparent;
+}
+
+.heads{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000;
+    position: relative;
+    font-family: 'Times New Roman';
+   
+    
+}
+.content{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+
+.heads h1{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    padding-left: 25px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.heads span{
+    color: deeppink;
+    
+}
+
+.sm{
+    width: 150px;
+    height: 50px;
+    border-radius: 2px solid white;
+    background: transparent;
+    background-color: deeppink;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+   transition: .3s ease;
+}
+ .sm a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+    
+}
+.sm:hover{
+    background-color: white;
+    
+}
+
+.search{
+    width: 400px;
+    float: left;
+    margin-left: 1200px; 
+}
+ .srch{
+    font-family: 'Times New Roman';
+     width: 200px;
+     height: 40px;
+     background: transparent;
+     border: 2px solid white;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+     border-right: none;
+     color: white;
+     padding: 15px;
+     float: left;
+     font-size: 16px;
+     margin-top: 15px;
+    
+}
+
+.btn{
+   width: 100px;
+    height: 40px;
+    background: deeppink;
+    font-size: 16px;
+    border: 2px solid white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+.btn:hover{
+    background-color: white;
+    
+}
+
+.btn:focus{
+    outline: none;
+    
+}
+.srch:focus{
+    outline: none;
+}
+
+.form{
+    margin-left: 180px;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(to top,rgba(209, 0, 0, 0.22)50%,rgba(209, 0, 0, 0.22)50%);
+    position: absolute;
+    top: 300px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form h5{
+    width: 200px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    background-color: transparent;
+    text-align: left;
+    
+}
+.form input{
+    margin-top: 30px;
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form1{
+    margin-left: 180px;
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(to top,rgba(209, 0, 0, 0.22)50%,rgba(209, 0, 0, 0.22)50%);
+    position: absolute;
+    top: 300px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form1 h5{
+    width: 200px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    background-color: transparent;
+    text-align: left;
+    
+}
+.form1 input{
+    margin-top: 30px;
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.form1 .link{
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.form1 .link a{
+    text-decoration: none;
+    font-size: 17px;
+    color: blue;
+}
+
+
+.btnn:hover{
+    background-color: white;
+    
+}
+.btnn a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+    
+}
+
+.form .link{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.form .link a{
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family:arial;
+}
+
+.btnn{
+    width: 350px;
+    height: 40px;
+    background-color: deeppink;
+    margin-top: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: sans-serif;
+    border: 2px solid white;
+}
+
+
+
+
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+   
+  
+}
+
+
+.menu-bar ul li{
+    width: 120ox;
+    margin: 15px;
+    padding: 15px;
+   
+} 
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover
+{
+    background: deeppink;
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    
+    display: block;
+    position: absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 1px;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:deeppink;
+}
+
+
